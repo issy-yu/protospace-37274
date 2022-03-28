@@ -6,7 +6,7 @@ class PrototypesController < ApplicationController
   end
   
   def new
-    @prototype = prototype.new
+    @prototype = Prototype.new
   end
 
   def create
